@@ -46,6 +46,7 @@ function Board({squares,isXNext,onPlay}) {
 
   function replay(){
     squares = Array(9).fill(null);
+    onPlay(squares);
     isXNext = true;
 
   }
