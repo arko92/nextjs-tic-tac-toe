@@ -1,7 +1,7 @@
 "use client";
 
 import { useState } from "react";
-
+import { Analytics } from "@vercel/analytics/react"
 /*
 Brainstorming:
 1. What components do we need?
